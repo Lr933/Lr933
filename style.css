@@ -1,0 +1,91 @@
+* {
+
+margin: 0;
+padding: 0;
+;
+}
+
+body{
+background-color: rgb(212, 173, 249);
+background-repeat: no-repeat;
+background-size: cover ;
+width:100vw;
+height: 50vh;
+}
+
+.bg-image {
+    background-image: url("concert.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+  }
+
+h2 {
+
+    color: rgb(15, 24, 40);
+}
+
+
+.logo {
+    color: rgb(189, 129, 245);
+    display: flex;
+    align-items: baseline;
+}
+
+.img {
+
+    size: 5px;
+}
+
+
+.carousel-inner {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 500px;
+}
+
+.parent {
+    /*margin-top: 35px;*/
+    background-color: rgb(52, 52, 52);
+    color: rgb(179, 177, 177);
+}
+
+.d-flex{
+    color: darkviolet;
+
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-facebook {
+    color: #007bb5;
+}
+
+.fa-instagram {
+    color: rgb(222, 98, 220);
+}
+
+.fa-snapchat {
+    color: rgb(234, 255, 2);
+}
+
+.fa {
+    /* padding: 20px; */
+    font-size: 3rem;
+    text-decoration: none;
+    margin: 5% 5%;
+}
+
+h1 {
+    color: green;
+}
+  
